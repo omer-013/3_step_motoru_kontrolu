@@ -20,7 +20,6 @@ void loop()
   Serial.println("DIKEY HAREKET(D | d)"); 
   Serial.println("YATAY HAREKET(Y | Y)");
   Serial.println("DONME ACISI(A | a)");
- // Serial.println("HIZINI AYARLA(H | h)");
 
   while(!Serial.available());
   deger = Serial.read();
